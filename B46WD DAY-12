@@ -1,0 +1,51 @@
+1. HTML FORM:
+
+  <html>
+    <head>
+        <title>Forms</title>
+        <h1> Form tag</h1>
+    </head>
+    <body>
+        <form>
+            First name : <input type="text" name="First name" Value="Guvi"/>
+            <br>
+            Last name : <input type="text" name="last name" Value="B46"/><br>
+            Comment: <br>
+            <textarea rows="5" cols="40" name="comment"></textarea>
+        </form>
+        <form>
+            User ID : <input type="text" name="User ID"/>
+            <br>
+            Password : <input type="password" name="password"/>
+        </form>
+        <form>
+            Mother tongue:<br>
+
+             <input type="checkbox" name="Tamil"/>Tamil
+            
+             <input type="checkbox" name="Telugu"/>Telugu
+             <input type="date" name="date"/>
+        </form>
+        <form>
+            Subject:<br>
+
+             <input type="radio" name="option"/>Maths
+            
+             <input type="radio" name="option"/>Science<br>
+             <input type="file" name="fileupload"/>
+             <input type="button" name="save" value="save"/>
+        </form>
+        <form>
+            countries:<br>
+              <select name="dropdown">
+                <option value="select" hidden selected></option>
+                <option value="germany">germany</option>
+                 <option value="canada">canada</option>
+                 <option value="UK" >UK</option>
+                 <option value="USA">USA</option>
+                 <option value="srilanka">srilanka</option>
+              </select>
+             
+        </form>
+    </body>
+</html>
